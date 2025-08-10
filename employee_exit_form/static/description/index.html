@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Employee Exit Form — Odoo 17</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <style>
+    :root{
+      --fg:#1f2937; --muted:#6b7280; --accent:#6c5ce7; --line:#e5e7eb;
+      --ok:#10b981; --warn:#f59e0b;
+    }
+    body{font-family:Inter,Segoe UI,system-ui,-apple-system,Arial,sans-serif;margin:0;color:var(--fg);line-height:1.55}
+    header{background:#fafafa;border-bottom:1px solid var(--line);text-align:center;padding:24px 16px}
+    header img.banner{width:100%;max-width:1024px;height:auto;border-radius:10px;border:1px solid var(--line)}
+    .wrap{max-width:1024px;margin:0 auto;padding:24px 16px}
+    h1{font-size:28px;margin:16px 0 8px}
+    .meta{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin:8px 0 0}
+    .badge{font-size:12px;border:1px solid var(--line);padding:6px 10px;border-radius:999px;color:var(--muted);background:#fff}
+    .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:16px}
+    section{grid-column:1/-1;background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px}
+    h2{font-size:20px;margin:0 0 8px}
+    p{margin:0 0 12px}
+    ul{margin:8px 0 0 18px}
+    li{margin:6px 0}
+    .cols-2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+    .shots{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+    .shots img{width:100%;height:auto;border:1px solid var(--line);border-radius:10px}
+    .kv{display:grid;grid-template-columns:180px 1fr;gap:10px;align-items:start}
+    .kv .k{color:var(--muted)}
+    .callout{border-left:4px solid var(--accent);padding:10px 12px;background:#fafafe}
+    .footer{color:var(--muted);text-align:center;margin:12px 0}
+    .icon-row{display:flex;align-items:center;gap:12px}
+    .app-icon{width:48px;height:48px;border-radius:10px;border:1px solid var(--line)}
+    code{background:#f6f7f9;border:1px solid var(--line);border-radius:6px;padding:1px 6px}
+  </style>
+</head>
+<body>
+
+  <header>
+    <!-- Optional banner (1024x300) -->
+    <img class="banner" src="./banner.png" alt="Employee Exit Form banner"/>
+    <div class="wrap">
+      <h1>Employee Exit Form (Dept → HR → CAO)</h1>
+      <div class="meta">
+        <span class="badge">Odoo 17</span>
+        <span class="badge">Community &amp; Enterprise</span>
+        <span class="badge">Category: Human Resources / Employees</span>
+        <span class="badge">License: LGPL-3 or OPL-1</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap grid">
+
+    <!-- App identity -->
+    <section>
+      <div class="icon-row">
+        <!-- App icon (256x256) -->
+        <img class="app-icon" src="./icon.png" alt="App icon"/>
+        <div>
+          <p><strong>Employee Exit Form</strong> streamlines exit interviews, approvals, and clearances with a guided workflow from Department Head to HR to CAO, plus signatures, emails, and asset returns.</p>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Features -->
+    <section>
+      <h2>Features</h2>
+      <div class="cols-2">
+        <ul>
+          <li>Exit interview form with reasons, feedback, and instructions</li>
+          <li>Approval flow: Dept Head → HR → CAO (buttons & statusbar)</li>
+          <li>Signatures & dates (employee, HR, CAO)</li>
+          <li>One2many: Returned equipment (description, serial, date)</li>
+          <li>Smart buttons (archive/open employee, proceed to HR)</li>
+        </ul>
+        <ul>
+          <li>Mail templates (submit, HR, CAO approved/rejected)</li>
+          <li>Record rules per role & multi-company support</li>
+          <li>Auto defaults (interview date, employee)</li>
+          <li>Computed acknowledgements with bold name &amp; code</li>
+          <li>Clean uninstall; minimal dependencies</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Workflow -->
+    <section>
+      <h2>Workflow</h2>
+      <ol>
+        <li>Employee submits → <em>Department Manager</em> reviews &amp; proceeds to HR</li>
+        <li><em>HR</em> validates, assigns CAO, and forwards</li>
+        <li><em>CAO</em> approves/rejects → notifications sent</li>
+        <li>On completion: archive employee/user, close contracts, finalize</li>
+      </ol>
+    </section>
+
+    <!-- Compatibility & Dependencies -->
+
+    <p class="footer">akarthikeyan104@gmail.com</p>
+
+  </main>
+</body>
+</html>
