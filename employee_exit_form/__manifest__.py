@@ -1,7 +1,7 @@
 {
     "name": "Employee Exit Interview Form",
     "summary": "Structured exit interview & approvals (Dept → HR → CAO)",
-    "version": "17.0.1.0.0",
+    "version": "17.0",
     "category": "Human Resources/Employees",
     "depends": ["base", "hr", "mail"],
     "author": "Karthikeyan A",
