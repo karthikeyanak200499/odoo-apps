@@ -103,92 +103,192 @@
 <!--  </main>-->
 <!--</body>-->
 <!--</html>-->
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="utf-8"/>-->
+<!--    <title>Employee Exit Form — Odoo 17</title>-->
+<!--    <meta name="viewport" content="width=device-width,initial-scale=1"/>-->
+<!--    <style>-->
+<!--        :root{-->
+<!--          &#45;&#45;fg:#1f2937; &#45;&#45;muted:#6b7280; &#45;&#45;accent:#6c5ce7; &#45;&#45;line:#e5e7eb;-->
+<!--          &#45;&#45;ok:#10b981; &#45;&#45;warn:#f59e0b; &#45;&#45;bg:#f9fafb;-->
+<!--        }-->
+<!--        body{font-family:Inter,Segoe UI,system-ui,-apple-system,Arial,sans-serif;margin:0;color:var(&#45;&#45;fg);line-height:1.55;background:var(&#45;&#45;bg)}-->
+<!--        header{background:linear-gradient(120deg,#6c5ce7,#a29bfe);color:#fff;text-align:center;padding:32px 16px}-->
+<!--        header img.banner{width:100%;max-width:1024px;height:auto;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,0.15)}-->
+<!--        h1{font-size:32px;margin:20px 0 10px}-->
+<!--        .meta{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin-top:8px}-->
+<!--        .badge{font-size:12px;padding:6px 12px;border-radius:999px;background:rgba(255,255,255,0.15);color:#fff;border:1px solid rgba(255,255,255,0.3)}-->
+<!--        .wrap{max-width:1024px;margin:0 auto;padding:24px 16px}-->
+<!--        section{margin-bottom:28px}-->
+<!--        h2{font-size:22px;margin-bottom:12px;color:var(&#45;&#45;accent)}-->
+<!--        p{margin:0 0 12px}-->
+<!--        /* Feature cards */-->
+<!--        .feature-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}-->
+<!--        .card{background:#fff;border:1px solid var(&#45;&#45;line);border-radius:12px;padding:16px;transition:transform .2s,box-shadow .2s}-->
+<!--        .card:hover{transform:translateY(-3px);box-shadow:0 4px 10px rgba(0,0,0,0.05)}-->
+<!--        /* Workflow timeline */-->
+<!--        .timeline{position:relative;padding-left:20px}-->
+<!--        .timeline::before{content:"";position:absolute;left:8px;top:0;bottom:0;width:3px;background:var(&#45;&#45;line)}-->
+<!--        .step{position:relative;margin-bottom:20px;padding-left:16px}-->
+<!--        .step::before{content:"";position:absolute;left:-5px;top:6px;width:14px;height:14px;border-radius:50%;background:var(&#45;&#45;accent)}-->
+<!--        .footer{text-align:center;color:var(&#45;&#45;muted);margin-top:40px;font-size:14px}-->
+<!--        /* App identity */-->
+<!--        .icon-row{display:flex;align-items:center;gap:16px;flex-wrap:wrap}-->
+<!--        .app-icon{width:64px;height:64px;border-radius:14px;border:1px solid var(&#45;&#45;line);background:#fff}-->
+<!--    </style>-->
+<!--</head>-->
+<!--<body>-->
+
+<!--<header>-->
+<!--    <h1>Employee Exit Form Workflow</h1>-->
+<!--    <div class="meta">-->
+<!--        <span class="badge">Odoo 17</span>-->
+<!--        <span class="badge">Community &amp; Enterprise</span>-->
+<!--        <span class="badge">Human Resources</span>-->
+<!--        <span class="badge">License: LGPL-3 / OPL-1</span>-->
+<!--    </div>-->
+<!--</header>-->
+
+<!--<main class="wrap">-->
+
+<!--    &lt;!&ndash; App identity &ndash;&gt;-->
+<!--    <section>-->
+<!--        <div class="icon-row">-->
+<!--            <p><strong>Employee Exit Form</strong> automates the entire offboarding process with approvals,-->
+<!--                notifications, and asset tracking — ensuring smooth clearance from Department Head to HR to CAO.</p>-->
+<!--        </div>-->
+<!--    </section>-->
+
+<!--    &lt;!&ndash; Features &ndash;&gt;-->
+<!--    <section>-->
+<!--        <h2>Key Features</h2>-->
+<!--        <div class="feature-grid">-->
+<!--            <div class="card">Exit interview form with reasons, feedback, and final notes</div>-->
+<!--            <div class="card">Approval flow: Dept Head → HR → CAO with status tracking</div>-->
+<!--            <div class="card">Digital signatures & auto-filled dates for all stakeholders</div>-->
+<!--            <div class="card">Track returned assets with description, serial, and date</div>-->
+<!--            <div class="card">Smart buttons to archive/open employee & proceed to HR</div>-->
+<!--            <div class="card">Email templates for submission, approval, and rejection</div>-->
+<!--            <div class="card">Multi-company & role-based access control</div>-->
+<!--            <div class="card">Automatic defaults for interview date and employee name</div>-->
+<!--        </div>-->
+<!--    </section>-->
+
+<!--    &lt;!&ndash; Workflow &ndash;&gt;-->
+<!--    <section>-->
+<!--        <h2>Workflow</h2>-->
+<!--        <div class="timeline">-->
+<!--            <div class="step">Employee submits exit form → Department Manager reviews</div>-->
+<!--            <div class="step">HR validates details, assigns CAO, and forwards</div>-->
+<!--            <div class="step">CAO approves/rejects → automatic notifications</div>-->
+<!--            <div class="step">On completion: Archive employee, close contracts, finalize</div>-->
+<!--        </div>-->
+<!--    </section>-->
+
+<!--    <p class="footer">📧 Contact: akarthikeyan104@gmail.com</p>-->
+
+<!--</main>-->
+<!--</body>-->
+<!--</html>-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8"/>
-    <title>Employee Exit Form — Odoo 17</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta charset="UTF-8">
+    <title>Exit Form Workflow Approval Update – Odoo</title>
     <style>
-        :root{
-          --fg:#1f2937; --muted:#6b7280; --accent:#6c5ce7; --line:#e5e7eb;
-          --ok:#10b981; --warn:#f59e0b; --bg:#f9fafb;
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            line-height: 1.6;
+            max-width: 100%;
+            margin: 0;
+            padding: 0 15px;
         }
-        body{font-family:Inter,Segoe UI,system-ui,-apple-system,Arial,sans-serif;margin:0;color:var(--fg);line-height:1.55;background:var(--bg)}
-        header{background:linear-gradient(120deg,#6c5ce7,#a29bfe);color:#fff;text-align:center;padding:32px 16px}
-        header img.banner{width:100%;max-width:1024px;height:auto;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,0.15)}
-        h1{font-size:32px;margin:20px 0 10px}
-        .meta{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin-top:8px}
-        .badge{font-size:12px;padding:6px 12px;border-radius:999px;background:rgba(255,255,255,0.15);color:#fff;border:1px solid rgba(255,255,255,0.3)}
-        .wrap{max-width:1024px;margin:0 auto;padding:24px 16px}
-        section{margin-bottom:28px}
-        h2{font-size:22px;margin-bottom:12px;color:var(--accent)}
-        p{margin:0 0 12px}
-        /* Feature cards */
-        .feature-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
-        .card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px;transition:transform .2s,box-shadow .2s}
-        .card:hover{transform:translateY(-3px);box-shadow:0 4px 10px rgba(0,0,0,0.05)}
-        /* Workflow timeline */
-        .timeline{position:relative;padding-left:20px}
-        .timeline::before{content:"";position:absolute;left:8px;top:0;bottom:0;width:3px;background:var(--line)}
-        .step{position:relative;margin-bottom:20px;padding-left:16px}
-        .step::before{content:"";position:absolute;left:-5px;top:6px;width:14px;height:14px;border-radius:50%;background:var(--accent)}
-        .footer{text-align:center;color:var(--muted);margin-top:40px;font-size:14px}
-        /* App identity */
-        .icon-row{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
-        .app-icon{width:64px;height:64px;border-radius:14px;border:1px solid var(--line);background:#fff}
+        h1 {
+            color: #6c5ce7;
+            max-width: 100%;
+        }
+        h2 {
+            color: #0984e3;
+            margin-top: 30px;
+            max-width: 100%;
+        }
+        ul {
+            margin: 0;
+            padding-left: 20px;
+            max-width: 100%;
+        }
+        .feature-box {
+            background: #f7f7f7;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            max-width: 100%;
+            box-sizing: border-box;
+        }
+        a {
+            color: #0984e3;
+            text-decoration: none;
+            max-width: 100%;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .approval-flow {
+            background: #dfe6e9;
+            padding: 10px;
+            border-left: 5px solid #6c5ce7;
+            margin: 10px 0;
+            max-width: 100%;
+            box-sizing: border-box;
+        }
     </style>
 </head>
 <body>
 
-<header>
-    <h1>Employee Exit Form Workflow</h1>
-    <div class="meta">
-        <span class="badge">Odoo 17</span>
-        <span class="badge">Community &amp; Enterprise</span>
-        <span class="badge">Human Resources</span>
-        <span class="badge">License: LGPL-3 / OPL-1</span>
-    </div>
-</header>
+<h1>Exit Form Workflow Approval</h1>
+<p>
+    Enhance your Odoo workflow process with a structured multi-level approval system, role-based access, and automated
+    notifications.
+</p>
 
-<main class="wrap">
+<h2>Approval Flow</h2>
+<div class="approval-flow">
+    <ol>
+        <li>User</li>
+        <li>Manager Approval</li>
+        <li>HR Approval</li>
+        <li>CAO Approval</li>
+        <li>HR Proceed</li>
+    </ol>
+</div>
 
-    <!-- App identity -->
-    <section>
-        <div class="icon-row">
-            <p><strong>Employee Exit Form</strong> automates the entire offboarding process with approvals,
-                notifications, and asset tracking — ensuring smooth clearance from Department Head to HR to CAO.</p>
-        </div>
-    </section>
+<h2>Key Features</h2>
+<div class="feature-box">
+    <ul>
+        <li><strong>Multi-Company</strong> &amp; <strong>Role-Based Access Control</strong> for flexible permissions.
+        </li>
+        <li><strong>Email Triggers</strong> for every approval stage, keeping all stakeholders informed.</li>
+        <li>
+            Support for tag usage in emails for direct action links.
+            Contact: <a href="mailto:akarthikeyan104@gmail.com">akarthikeyan104@gmail.com</a>
+        </li>
+    </ul>
+</div>
 
-    <!-- Features -->
-    <section>
-        <h2>Key Features</h2>
-        <div class="feature-grid">
-            <div class="card">Exit interview form with reasons, feedback, and final notes</div>
-            <div class="card">Approval flow: Dept Head → HR → CAO with status tracking</div>
-            <div class="card">Digital signatures & auto-filled dates for all stakeholders</div>
-            <div class="card">Track returned assets with description, serial, and date</div>
-            <div class="card">Smart buttons to archive/open employee & proceed to HR</div>
-            <div class="card">Email templates for submission, approval, and rejection</div>
-            <div class="card">Multi-company & role-based access control</div>
-            <div class="card">Automatic defaults for interview date and employee name</div>
-        </div>
-    </section>
+<h2>How It Works</h2>
+<p>
+    This module adds a step-by-step approval process to your existing workflow.
+    On each approval step, the next approver automatically receives an email notification with a direct link to approve
+    or reject the request.
+</p>
 
-    <!-- Workflow -->
-    <section>
-        <h2>Workflow</h2>
-        <div class="timeline">
-            <div class="step">Employee submits exit form → Department Manager reviews</div>
-            <div class="step">HR validates details, assigns CAO, and forwards</div>
-            <div class="step">CAO approves/rejects → automatic notifications</div>
-            <div class="step">On completion: Archive employee, close contracts, finalize</div>
-        </div>
-    </section>
+<h2>Contact & Support</h2>
+<p>
+    For support or customization, please <a href="mailto:akarthikeyan104@gmail.com">contact us</a>.
+</p>
 
-    <p class="footer">📧 Contact: akarthikeyan104@gmail.com</p>
-
-</main>
 </body>
 </html>
